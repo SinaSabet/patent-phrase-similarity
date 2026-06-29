@@ -108,13 +108,17 @@ Dataset
 
 ## Evaluation
 
-The model was evaluated using:
+The model was evaluated using validation loss and Pearson correlation.
 
-* Validation loss
-* Pearson correlation
-* Prediction error analysis
+Final results:
 
-Pearson correlation is useful in this project because the goal is to measure how well the predicted scores follow the real similarity scores.
+| Metric | Value |
+|---|---:|
+| Training Loss | 0.019418 |
+| Validation Loss | 0.025655 |
+| Pearson Correlation | 0.818839 |
+
+A Pearson correlation of **0.818839** shows that the model learned a strong relationship between the predicted similarity scores and the real similarity scores.
 
 ## Prediction Function
 
